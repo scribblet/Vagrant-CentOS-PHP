@@ -4,7 +4,7 @@ _Vagrantfile and Puppet manifests for creating a CentOS based PHP Development VM
 
 ## Project Setup
 
-_How do I, as a developer, start working on the project?_ 
+_How do I, as a developer, use this project?_ 
 
 1. _Install Vagrant_
 2. _Check out this GitHub repository to a new directory_
