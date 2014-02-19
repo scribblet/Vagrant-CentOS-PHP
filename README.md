@@ -1,6 +1,6 @@
 # _Project_
 
-_Vagrantfile and Puppet manifests for creating a CentOS based PHP Development VM. Contains Apache2, MySQL, PHP 5.5, composer, phpMyAdmin and MailCatcher._
+_Vagrantfile and Puppet manifests for creating a CentOS based PHP Development VM. Contains Apache2, MySQL, PHP 5.5, XDebug, composer, phpMyAdmin and MailCatcher._
 
 ## Project Setup
 
@@ -14,8 +14,8 @@ _How do I, as a developer, use this project?_
 
 ### _Symfony2_
 
-- _Modify AppKernel.php to return a cache and log directory relative to /tmp/symfony2_
-- _Vagrant user is a member of the www-data group and the www-data group has write permissions to vhost directories and /tmp/symfony2_
+> - _Modify AppKernel.php to return a cache and log directory relative to /tmp/symfony2_
+> - _Vagrant user is a member of the www-data group and the www-data group has write permissions to vhost directories and /tmp/symfony2_
 
 ### _Default Network Settings_
 
@@ -23,13 +23,14 @@ _How do I, as a developer, use this project?_
 > - Port Forward -> Host: 1080 to Guest: 80
 
 ### _Virtual Hosts_
-_ross.dev_
+#### _ross.dev_
 > - Directory: /srv/vhosts/ross.dev
 > - Document Root: /srv/vhosts/ross.dev/web
 
 ### _PHP_
 
 > - 5.5
-> - Opcode Cache installed (php-opcache)
+> - Opcode Cache installed and enabled (php-opcache)
+> - XDebug installed and enabled
 
 ## License
