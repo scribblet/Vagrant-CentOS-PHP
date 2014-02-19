@@ -23,7 +23,9 @@ _How do I, as a developer, use this project?_
 > - Port Forward -> Host: 1080 to Guest: 80
 
 ### _Virtual Hosts_
+
 #### _ross.dev_
+
 > - Directory: /srv/vhosts/ross.dev
 > - Document Root: /srv/vhosts/ross.dev/web
 
